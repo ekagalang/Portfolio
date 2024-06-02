@@ -1,0 +1,130 @@
+/*
+index.html
+*/
+
+body {
+    font-family: sans-serif;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Foto Nama Nama"
+      "Foto Portfolio Portfolio"
+      "Kelas TTL TTL";
+}
+
+.text {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.picture {
+    width: 70%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+  
+.Foto {
+    grid-area: Foto;
+}
+  
+.Nama {
+    grid-area: Nama;
+}
+  
+.Portfolio {
+    grid-area: Portfolio;
+}
+  
+.TTL {
+    grid-area: TTL;
+}
+  
+.Kelas {
+    grid-area: Kelas;
+}
+
+
+/* 
+Portfolio.html
+*/
+
+.containerport {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Foto Organisasi"
+      "Nama IPK"
+      "Contact Sertifikat"
+      "Skill Sertifikat";
+  }
+  
+.Fotoport {
+    grid-area: Foto;
+}
+
+.picture2 {
+    width: 50%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.Namaport {
+    grid-area: Nama;
+}
+  
+.Contact {
+    grid-area: Contact;
+}
+  
+.Skill {
+    grid-area: Skill;
+}
+  
+.Organisasi {
+    grid-area: Organisasi;
+    margin-left: 30px;
+}
+  
+.IPK {
+    grid-area: IPK;
+    margin-left: 30px;
+}
+  
+.Sertifikat {
+    grid-area: Sertifikat;
+    margin-left: 30px;
+}
+
+.textp {
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.judul {
+    font-size: 30px;
+    font-weight: bold;
+    background-color:red;
+    text-align: center;
+}
+  
